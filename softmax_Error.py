@@ -7,7 +7,7 @@ Created on Mon Feb 11 20:42:48 2019
 
 import numpy as np
 
-L=[1,2,3,4,5]
+L=[[0,0,0,0,1,1,1,1],[0,0,1,1,0,0,1,1],[0,1,0,1,0,1,0,1]]
 
 def softmaxL(l):
     expo=np.exp(l)
